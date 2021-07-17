@@ -103,7 +103,7 @@ def split_code(codes):
 def decode(codes, encoded):
     # Write your code here
     code_dict = split_code(codes)
-    code = sorted(code_dict.items(), key=lambda x: x[0])
+    code = sorted(code_dict.items(), key = lambda x: x[0])
 
     res = ""
     while encoded:
